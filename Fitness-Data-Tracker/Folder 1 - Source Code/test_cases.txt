@@ -1,0 +1,52 @@
+FITNESS DATA TRACKER — PS NO. 77
+Test cases from the assignment sheet
+
+TC-01: Normal input
+Menu option: 1
+Steps: 8000
+Calories: 320
+Expected:
+Record saved for Day 1. Goal achieved: No (80.00% of goal)
+
+TC-02: Boundary / minimum input
+Menu option: 1
+Steps: 10000
+Calories: 400
+Expected:
+Record saved for Day 1. Goal achieved: Yes (100.00% of goal)
+
+TC-03: Invalid input
+Menu option: 1
+Steps: -500
+Calories: 200
+Expected:
+Invalid steps. Enter a non-negative whole number.
+Record not saved.
+
+TC-04: Different valid scenario
+Records:
+Day 1: 8000 steps, 320 calories
+Day 2: 12000 steps, 480 calories
+Day 3: 10000 steps, 400 calories
+
+Expected summary:
+Average steps: 10000.00
+Total calories: 1200
+Best day: Day 2 (12000 steps)
+Goal days: 2/3
+
+BMI input:
+Weight: 70 kg
+Height: 1.75 m
+Expected:
+BMI: 22.86
+Category: Normal
+
+Chart:
+A bar chart titled "Daily Steps" is displayed with Days on the X-axis,
+Number of Steps on the Y-axis, and a horizontal 10,000-step goal line.
+
+Note:
+Run each test in a fresh program session when checking the exact Day 1
+wording for TC-01 and TC-02. The assignment's test data is the expected
+reference; attach only genuine screenshots from the student's run.
